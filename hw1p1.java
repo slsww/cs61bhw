@@ -14,8 +14,8 @@ class open_commercial{
         BufferedReader webpagereader = new BufferedReader(new InputStreamReader(url.openStream()));
         System.out.println(webpagereader);
         int linecount = 0;
-        String[] lines = new String[6];
-        while((lines[linecount]=webpagereader.readLine())!=null && linecount<5){
+        String[] lines = new String[5];
+        while((lines[linecount]=webpagereader.readLine())!=null && linecount<4){
                 System.out.println(lines[linecount]);
                 linecount++;
         }for(int i=4;i>0;i--){
